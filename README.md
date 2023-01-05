@@ -15,7 +15,7 @@ itemData.info.name
 ```
 <img src="https://media.discordapp.net/attachments/999664509054619708/1060370064668364860/image.png?width=1440&height=302">
 
-# Changes to \qb-core\shared\item
+# Add to \qb-core\shared\item
 
 ## Add at the end
 
