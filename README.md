@@ -4,7 +4,7 @@ sorry i use google translate =))
 # Installation
 Please follow to use it
 # Changes to your inventory (i used lj-inventory)
-## Go to "else if (itemData.name == "driver_license")" more below:
+## Go to "else if (itemData.name == "driver_license")" add more below:
 ```
 else if (itemData.type == "bag") {
 $(".item-info-title").html("<p>" + itemData.label + "</p>");
