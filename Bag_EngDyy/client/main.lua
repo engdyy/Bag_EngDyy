@@ -12,7 +12,6 @@ AddEventHandler('bag_engdyy:client:use:engdyy_bag1', function(item, info)
 	local maxweight = 10000 -- 10kg
 	local slots = 10 
     TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"}) -- if use scully_emotemenu of dpemotes
-    -- TriggerEvent('scully_emotemenu:playByCommand', 'adjusttie') -- if use scully_emotemenu of scully_emotemenu
     QBCore.Functions.Progressbar("use_bag", "Đang Đeo Túi Cấp 1...", 300, false, false, {
         disableMovement = false,
         disableCarMovement = false,
@@ -40,7 +39,6 @@ AddEventHandler('bag_engdyy:client:use:engdyy_bag2', function(item, info)
 	local maxweight = 20000 -- 10kg
 	local slots = 20 
     TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"}) -- if use scully_emotemenu of dpemotes
-    -- TriggerEvent('scully_emotemenu:playByCommand', 'adjusttie') -- if use scully_emotemenu of scully_emotemenu
     QBCore.Functions.Progressbar("use_bag", "Đang Đeo Túi Cấp 2...", 300, false, false, {
         disableMovement = false,
         disableCarMovement = false,
@@ -57,7 +55,6 @@ AddEventHandler('bag_engdyy:client:use:engdyy_bag2', function(item, info)
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "StashOpen", 0.4)
         TriggerEvent("inventory:client:SetCurrentStash", info..'_bag2')
         TriggerEvent('animations:client:EmoteCommandStart', {"c"}) -- if use scully_emotemenu of dpemotes
-        -- TriggerEvent('scully_emotemenu:cancelAnimation') -- if use scully_emotemenu of scully_emotemenu
     end)
     Citizen.Wait(1000)
 end)
@@ -68,7 +65,6 @@ AddEventHandler('bag_engdyy:client:use:engdyy_bag3', function(item, info)
 	local maxweight = 30000 -- 10kg
 	local slots = 30 
     TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"}) -- if use scully_emotemenu of dpemotes
-    -- TriggerEvent('scully_emotemenu:playByCommand', 'adjusttie') -- if use scully_emotemenu of scully_emotemenu
     QBCore.Functions.Progressbar("use_bag", "Đang Đeo Túi Cấp 1...", 300, false, false, {
         disableMovement = false,
         disableCarMovement = false,
@@ -85,7 +81,6 @@ AddEventHandler('bag_engdyy:client:use:engdyy_bag3', function(item, info)
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "StashOpen", 0.4)
         TriggerEvent("inventory:client:SetCurrentStash", info..'_bag3')
         TriggerEvent('animations:client:EmoteCommandStart', {"c"}) -- if use scully_emotemenu of dpemotes
-        -- TriggerEvent('scully_emotemenu:cancelAnimation') -- if use scully_emotemenu of scully_emotemenu
     end)
     Citizen.Wait(1000)
 end)
